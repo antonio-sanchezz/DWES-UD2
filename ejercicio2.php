@@ -19,7 +19,7 @@
 
     $areaTriangulo = ($base*$altura)/2;
     $areaCuadrado = $base*$altura;
-    $areaRombo = ($diagonalMayor*$diagonalMenor);
+    $areaRombo = ($diagonalMayor*$diagonalMenor)/2;
     $areaCirculo = PI*$r*$r;
 
     echo ("El triángulo de radio $r cm tiene un área de $areaCirculo <br />");
