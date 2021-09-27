@@ -12,11 +12,12 @@
 $nombre = "Antonio Sanchez Espinosa";
 $poblacion = "Sevilla";
 $edad = 23;
-
-echo "Soy " . $nombre . ", tengo " . $edad . " años de edad y vivo en " . $poblacion . ".<br />";
-
+echo "<p>";
+echo ("Soy $nombre, tengo $edad años de edad y vivo en $poblacion.");
+echo "</p>";
+echo "<p>";
 printf("Soy %s, tengo %d años de edad y vivo en %s.", $nombre, $edad, $poblacion);
-
+echo "</p>";
 ?>
 </body>
 </html>
