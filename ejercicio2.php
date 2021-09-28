@@ -22,7 +22,7 @@
     $areaRombo = ($diagonalMayor*$diagonalMenor)/2;
     $areaCirculo = PI*$r*$r;
 
-    echo ("El triángulo de radio $r cm tiene un área de $areaCirculo <br />");
+    echo ("El triángulo de base $base y altura $altura cm tiene un área de $areaTriangulo <br />");
     echo ("El cuadrado de lados $base y $altura cm tiene un área de $areaCuadrado <br />");
     echo ("El rombo de diagonal mayor $diagonalMayor cm y diagonal menor $diagonalMenor cm tiene un área de $areaRombo <br />");
     echo ("El circulo de radio $r cm tiene un área de $areaCirculo");
