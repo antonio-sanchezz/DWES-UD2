@@ -17,10 +17,10 @@
     $total = $precioPantalon*$numeroPantalones + $precioCamisa*$numeroCamisa;
     $totalDescuento = round(($total - ($total*DESCUENTO)/100), 2);
 
-    printf("El precio de un pantalón es %d <br />", $precioPantalon);
-    printf("El precio de una camisa es %d <br />", $precioCamisa);
-    printf("El total sin descuento es %d <br />", $total);
-    printf("El total con descuento es %d <br />", $totalDescuento);
+    printf("El precio de un pantalón es %s <br />", $precioPantalon);
+    printf("El precio de una camisa es %s <br />", $precioCamisa);
+    printf("El total sin descuento es %s <br />", $total);
+    printf("El total con descuento es %0.2f <br />", $totalDescuento);
 
     ?>
 </body>
