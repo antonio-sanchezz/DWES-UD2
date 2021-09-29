@@ -23,6 +23,7 @@ echo "<hr>";
 //--------------------------
 $text = 23.52;
 
+echo($text);
 echo(gettype($text));
 echo "<br>";
 echo(var_export(is_double($text)));
