@@ -7,19 +7,21 @@
     <title>Document</title>
 </head>
 <body>
-    <?php
+<?php
 
-    $operacionesDiarias = "5";
-    $operacionesSemanales = 25;
-    $mensaje;
+$operacionesDiarias = "5";
+$operacionesSemanales = 25;
+define("MAX_OPERACIONES_DIARIAS", 6);
+define("MAX_OPERACIONES_SEMANALES", 30);
 
-    define("MAX_OPERACIONES_DIARIAS", 6);
-    define("MAX_OPERACIONES_SEMANALES", 30);
+echo "El valor de operaciones diarias es mayor o igual que el máximo: " . var_export($operacionesDiarias >= MAX_OPERACIONES_DIARIAS);
+echo "<br>";
+echo "El valor de operaciones semanales es mayor o igual que el máximo: " . var_export($operacionesSemanales >= MAX_OPERACIONES_SEMANALES);
+echo "<br>";
+echo "El valor de operaciones diarias es exactamente igual al máximo: " . var_export($operacionesDiarias === MAX_OPERACIONES_DIARIAS);
+echo "<br>";
+echo "El valor de operaciones diarias es distinto al de operaciones semanales: " . var_export($operacionesDiarias != $operacionesSemanales);
 
-    if ($operacionesDiarias >= MAX_OPERACIONES_DIARIAS) {
-        $mensaje = "El valor de operaciones diarias es mayor o igual que el máximo";
-    }
-
-    ?>
+?>
 </body>
 </html>
