@@ -11,19 +11,23 @@
 
 $text = "Mensaje Secreto";
 
+echo $text;
+echo "<br>";
 echo(gettype($text));
 echo "<br>";
 echo(is_string($text));
 echo "<br>";
-echo(is_numeric($text));
+echo(is_integer($text));
 echo "<br>";
 echo "<hr>";
 //--------------------------
 $text = 23.52;
 
+echo $text;
+echo "<br>";
 echo(gettype($text));
 echo "<br>";
-echo(is_string($text));
+echo(is_double($text));
 echo "<br>";
 echo(is_numeric($text));
 echo "<br>";
