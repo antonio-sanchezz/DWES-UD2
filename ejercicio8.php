@@ -13,11 +13,11 @@ $text = "Mensaje Secreto";
 
 echo $text;
 echo "<br>";
-echo(gettype($text));
+echo("Tipo de variable: " . gettype($text));
 echo "<br>";
-echo(var_export(is_string($text)));
+echo("Tipo string: " . var_export(is_string($text)));
 echo "<br>";
-echo(var_export(is_integer($text)));
+echo("Tipo entero: " . var_export(is_integer($text)));
 echo "<br>";
 echo "<hr>";
 //--------------------------
@@ -25,11 +25,11 @@ $text = 23.52;
 
 echo($text);
 echo "<br>";
-echo(gettype($text));
+echo("Tipo de variable: " . gettype($text));
 echo "<br>";
-echo(var_export(is_double($text)));
+echo("Tipo decimal: " . var_export(is_double($text)));
 echo "<br>";
-echo(var_export(is_numeric($text)));
+echo("Tipo numerico: " . var_export(is_numeric($text)));
 echo "<br>";
 echo "<hr>";
 //--------------------------
