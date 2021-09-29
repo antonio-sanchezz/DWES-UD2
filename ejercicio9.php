@@ -14,7 +14,7 @@ echo("Direccion del servidor: " . $_SERVER['SERVER_ADDR'] . "<br>");
 echo("Nombre del servidor: " . $_SERVER['SERVER_NAME'] . "<br>");
 echo("La raiz de carpetas del servidor: " . $_SERVER['DOCUMENT_ROOT'] . "<br>");
 echo("Direccion remota del servidor: " . $_SERVER['REMOTE_ADDR'] . "<br>");
-echo("Metodo de obtencion de la pagina" . $_SERVER['REQUEST_METHOD'] . "<br>");
+echo("Metodo de obtencion de la pagina: " . $_SERVER['REQUEST_METHOD'] . "<br>");
 
 function ejemplo() {
     $varLocal = 33;
