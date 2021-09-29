@@ -15,21 +15,19 @@ echo $text;
 echo "<br>";
 echo(gettype($text));
 echo "<br>";
-echo(is_string($text));
+echo(var_export(is_string($text)));
 echo "<br>";
-echo(is_integer($text));
+echo(var_export(is_integer($text)));
 echo "<br>";
 echo "<hr>";
 //--------------------------
 $text = 23.52;
 
-echo $text;
-echo "<br>";
 echo(gettype($text));
 echo "<br>";
-echo(is_double($text));
+echo(var_export(is_double($text)));
 echo "<br>";
-echo(is_numeric($text));
+echo(var_export(is_numeric($text)));
 echo "<br>";
 echo "<hr>";
 //--------------------------
